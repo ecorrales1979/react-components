@@ -1,7 +1,16 @@
 {
   "name": "react-components",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
+  "author": {
+    "name": "Eduardo Ernesto Corrales Reyna",
+    "email": "ecorrales1979@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ReactJS",
+    "components"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -17,5 +26,17 @@
     "@vitejs/plugin-react": "^1.3.0",
     "typescript": "^4.6.3",
     "vite": "^2.9.9"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
